@@ -19,10 +19,10 @@ rt_height = binary_tree_height(tree->right);
 
 if (lt_height > rt_height)
 {
-return (lt_height + 1);
+return (1 + (lt_height));
 }
 else if (rt_height > lt_height)
 {
-return (rt_height + 1);
+return (1 + (rt_height));
 }
 }
